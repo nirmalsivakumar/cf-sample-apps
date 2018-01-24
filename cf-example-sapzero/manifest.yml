@@ -1,0 +1,7 @@
+---
+applications:
+- name: sapzero
+  memory: 128M
+  instances: 1
+  path: .
+  buildpack: git://github.wdf.sap.corp/JFDI/buildpack-sapzero.git

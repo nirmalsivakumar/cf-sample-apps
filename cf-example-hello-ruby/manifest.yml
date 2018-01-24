@@ -1,0 +1,7 @@
+---
+applications:
+- name: hello-ruby-PTT
+  memory: 128M
+  instances: 1
+  host: hello-ruby-ppt
+  path: .

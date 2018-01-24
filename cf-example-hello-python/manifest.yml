@@ -1,0 +1,7 @@
+---
+applications:
+- name: hello-python_dtt
+  memory: 128M
+  instances: 1
+  path: .
+  command: python web.py
